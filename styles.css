@@ -1,0 +1,375 @@
+@font-face {
+    font-family: font;
+    src: url(/font/BaiJamjuree-Bold.ttf);
+}
+
+@font-face {
+    font-family: font1;
+    src: url(/font/BaiJamjuree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(/font/BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(/font/BaiJamjuree-Medium.ttf);
+}
+
+@font-face {
+    font-family: font4;
+    src: url(/font/BaiJamjuree-Light.ttf);
+}
+
+@font-face {
+    font-family: font5;
+    src: url(/font/BaiJamjuree-ExtraLight.ttf);
+}
+
+body {
+    font-size: 18px;
+    font-family: font;
+    text-align: center;
+}
+
+.logo1 {
+    width: 65px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+}
+
+h1 {
+    font-size: 23px;
+}
+
+.h1 {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.h2 {
+    margin-top: 60px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.keep {
+    padding-bottom: 20px;
+}
+
+/* .main {
+    margin-left: 400px;
+    margin-right: 400px;
+
+} */
+
+header {
+    background-image: url(/images/bg-header-desktop.png);
+    /* background-blend-mode: lighten; */
+    /* mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, transparent); */
+}
+
+
+.side {
+    display: flex;
+    padding-bottom: 60px;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+
+.img1 {
+    width: 400px;
+    padding-right: 60px;
+}
+
+.icon1 {
+    width: 40px;
+
+}
+
+.inline1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img3 {
+    width: 30px;
+}
+
+p {
+    font-size: 11px;
+    font-family: font4;
+}
+
+.art5 {
+    padding: 20px 0 30px 0;
+}
+
+.inline2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 65px 0;
+}
+
+.art4 {
+    margin: 0 90px 60px 90px;
+}
+
+.inline4 {
+    display: flex;
+
+}
+
+.inline3 {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.inline31 {
+    padding-right: 100px;
+}
+
+.set {
+    margin: 0 150px 70px 150px;
+}
+
+#listing {
+    font-family: font5;
+    font-size: 13px;
+    font-weight: 500;
+    padding-right: 100px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    line-height: 35px;
+
+}
+
+.tw {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+
+}
+
+.b1 {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.b2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+button {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+span {
+    color: white;
+}
+
+.ggl {
+    width: 100px;
+    padding-right: 40px;
+}
+
+.ibm {
+    width: 100px;
+    padding-right: 40px;
+}
+
+.ms {
+    width: 100px;
+    padding-right: 40px;
+}
+
+.hp {
+    width: 100px;
+    padding-right: 40px;
+}
+
+.vg {
+    width: 100px;
+}
+
+.inline11 {
+    padding-right: 14px;
+}
+
+.inline12 {
+    margin-right: 15px;
+}
+
+.inline13 {
+    /* padding-left: 20px; */
+}
+
+.img2 {
+    width: 400px;
+}
+
+/* Reduce margin */
+.stage1 {
+    padding: 0 150px;
+}
+
+.stage2 {
+    padding: 0 150px 0 0;
+}
+
+@media screen and (max-width:680px) {
+    .stage1 {
+        padding: 0 70px;
+    }
+
+    .logo1 {
+        width: 120px;
+    }
+
+    .side {
+        display: inline;
+    }
+
+    .stage2 {
+        padding: 0;
+    }
+
+    .img1 {
+        padding: 0;
+    }
+
+    .inline1 {
+        display: inline;
+    }
+
+    .inline2 {
+        display: inline;
+
+    }
+
+    .ggl {
+        padding: 70px 0 0 0;
+    }
+
+    .ibm {
+        padding: 30px 0 0 0;
+    }
+
+    .ms {
+        padding: 30px 0 0 0;
+    }
+
+    .hp {
+        padding: 30px 0 0 0;
+    }
+
+    .vg {
+        padding: 30px 0 90px 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    ul {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .inline4 {
+        justify-content: center;
+    }
+
+    li {}
+
+}
+
+@media screen and (max-width: 490px) {
+    .inline3 {
+        display: inline-table;
+        width: 100%;
+    }
+
+    li {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #listing {
+        padding: 20px 0;
+    }
+
+    .inline31 {
+        padding: 0 30px 0 0;
+    }
+
+    button {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    span {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .img1 {
+        width: 270px;
+    }
+
+    .img2 {
+        width: 270px;
+    }
+
+    .set {
+        margin: 30px 70px 50px 70px;
+    }
+
+    .inline4 {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .ggl {
+        padding: 100px 0 0 0;
+    }
+
+    .h1 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .stage1 {
+        padding: 0 50px;
+    }
+}
